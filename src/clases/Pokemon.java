@@ -45,4 +45,7 @@ public class Pokemon {
     public void setSeasonPokemon(int season_pokemon) {
         this.season_pokemon = season_pokemon;
     }
+    public int getSeasonPokemon(){
+        return season_pokemon;
+    }
 }
