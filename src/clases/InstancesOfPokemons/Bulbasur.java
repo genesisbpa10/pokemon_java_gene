@@ -13,7 +13,7 @@ public class Bulbasur extends Pokemon implements IGrass {
     }
 
     @Override
-    protected void toAttackFusionFlare() {
+	public void toAttackFusionFlare() {
         System.out.println("Im Bulbasur and Im using Fussion Flare attack.");
 
     }

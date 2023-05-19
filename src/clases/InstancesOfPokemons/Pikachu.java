@@ -5,16 +5,17 @@ import interfaces.IElectric;
 
 public class Pikachu extends Pokemon implements IElectric {
 
-    public Pikachu(){
-        
+    public Pikachu() {
+
     }
+
     @Override
     protected void toAttackFlamethrower() {
         System.out.println("Im Pikachu and Im using Flamethrower attack.");
     }
 
     @Override
-    protected void toAttackFusionFlare() {
+    public void toAttackFusionFlare() {
         System.out.println("Im Pikachu and Im using Fussion Flare attack.");
 
     }

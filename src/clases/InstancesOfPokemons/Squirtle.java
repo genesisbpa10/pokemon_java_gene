@@ -13,7 +13,7 @@ public class Squirtle extends Pokemon implements IWater {
     }
 
     @Override
-    protected void toAttackFusionFlare() {
+    public void toAttackFusionFlare() {
         System.out.println("Im Squirtle and Im using Fussion Flare attack.");
 
     }
