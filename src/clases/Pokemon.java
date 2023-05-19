@@ -1,10 +1,15 @@
 package clases;
 
-public class Pokemon {
+public abstract class Pokemon {
     int pokedex_num_pokemon;
     String name_pokemon;
     double weight_pokemon;
     int season_pokemon;
+
+
+    protected abstract void toAttackFlamethrower();
+    protected abstract void toAttackFusionFlare();
+    protected abstract void toAttackHeatCrash();
 
     public Pokemon() {
 
@@ -48,4 +53,7 @@ public class Pokemon {
     public int getSeasonPokemon(){
         return season_pokemon;
     }
+
+
+
 }
